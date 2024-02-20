@@ -1,0 +1,124 @@
+body {
+    font-family: Georgia, serif;
+}
+
+header {
+    border-bottom: 2px #328a84 solid;
+}
+
+header p {
+    font-family: Garamond, serif;
+    font-size: 3em;
+    font-weight: bold;
+    color: #328a84;
+    margin: 10px 15%;
+}
+
+#screen {
+    margin: 0 15%;
+}
+
+.hidden {
+    display: none;
+}
+
+#error-message {
+    margin: 10px 0;
+    text-align: center;
+}
+
+/*Count of parties*/
+#cOfParties {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 60px 0;
+}
+
+/*Each party block*/
+.party-block {
+    border-left: 7px #328a84 solid;
+    background: #ecfaf6;
+    min-width: 18%;
+    font-family: Garamond, serif;
+    padding: 10px 2%;
+    margin: 10px 0;
+    color: #1d504e;
+}
+
+.party-block .party {
+    font-size: 1.5em;
+}
+
+.party-block .data {
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+/*Lesser headings*/
+h {
+    display: block;
+    font-family: Garamond, serif;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 40px 0 20px 0;
+    color: #328a84;
+}
+
+#leadersOfParties {
+    margin: 20px 0;
+    line-height: 1.5em;
+}
+
+#filters {
+    margin: 20px 10%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px 10%;
+}
+
+th, td {
+    border-bottom: 1px #328a84 solid;
+    padding: 15px 20px;
+    text-align: left;
+}
+
+th {
+    background: #328a84;
+    color: white;
+}
+
+/*Click to open dropdown details*/
+.hoverable {}
+
+.hoverable:hover {
+    background: #cfc1ea;
+}
+
+.detailed-td {
+    background: #eafaf8;
+}
+
+.detailed-hoverable {
+    background: #eafaf8;
+}
+
+/*Click to close dropdown details*/
+.detailed-hoverable:hover {
+    background: linear-gradient(#a1d7d4, #eafaf8);
+}
+
+/*Weblinks*/
+td a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #bf59ff;
+}
+
+td a:hover {
+    color: #cd26d3;
+    text-shadow: #3d1956 0 0 1px;
+}

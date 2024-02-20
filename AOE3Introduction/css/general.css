@@ -1,0 +1,100 @@
+body {
+    overflow-x: hidden;
+    background-image: url("image/wallpaper.jpg");
+    background-size: 100%;
+    background-repeat: repeat-y;
+    color: #cccccc;
+    font-family: "Malgun Gothic", sans-serif;
+    font-size: 18px;
+}
+
+header {
+    font-size: 1.3em;
+    font-family: Copperplate, fantasy;
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+    margin-bottom: 1px;
+    border-bottom: 2px solid #b09f4a;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1px;
+    border-bottom: 2px solid #b09f4a;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: Copperplate, fantasy;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #dddddd;
+    text-align: center;
+    padding: 10px 24px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: rgba(255, 255, 255, 0.13);
+    color: #dddd33;
+}
+
+.current-page {
+    color: white;
+    border-bottom: 4px solid #b09f4a;
+}
+
+.current-page:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    font-size: 0.8em;
+    padding: 40px;
+    background-color: black;
+    margin-top: 20px;
+    border-top: 2px solid #cccccc;
+}
+
+.inline-em {
+    font-weight: bold;
+    color: #b09f4a;
+}
+
+.inline-link {
+    color: #5099ff;
+    text-decoration: none;
+}
+
+.inline-link:hover {
+    color: blueviolet;
+}
+
+.article-heading {
+    font-size: 1.6em;
+    font-family: Copperplate, fantasy;
+    font-weight: normal;
+    color: #b09f4a;
+    margin-bottom: 0.5em;
+}
+
+.article-content {
+    line-height: 1.5;
+    margin-bottom: 0.5em;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Senators</title>
+    <link rel="stylesheet" href="senators.css">
+</head>
+<body>
+<header><p>US Senators</p></header>
+<div id="error-message"></div>
+<div id="screen">
+    <div id="cOfParties"></div>
+    <h>Leadership Members</h>
+    <ul id="leadersOfParties"></ul>
+    <h>Query Table</h>
+    <form id="filters">
+        Parties: <select id="party-selector"></select>
+        States: <select id="state-selector"></select>
+        Ranks: <select id="rank-selector"></select>
+        <button>Filter</button>
+    </form>
+    <table id="displayTable"></table>
+</div>
+<script src="senators.js"></script>
+</body>
+</html>

@@ -1,2 +1,5 @@
 # Frontend-Projects
- It includes a game (AOE3) introduction web project and a statistic web page of Senators
+ Hello:) Here are two of my personal web projects to show my frontend design skills.
+ A game (AOE3) introduction web project, 
+ and a statistic web page of US Senators.
+ Both got A+ at UCD.

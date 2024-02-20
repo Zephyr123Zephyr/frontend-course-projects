@@ -1,0 +1,71 @@
+#opening-block {
+    position: relative;
+    width: 100%;
+    padding-top: 25%;
+    background-image: url("image/openingimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 3px solid #aaaaaa;
+}
+
+#black-gradient {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 70%;
+    background: linear-gradient(to left, transparent, black);
+    color: white;
+    padding: 20px;
+}
+
+#black-gradient article {
+    position: absolute;
+    top: 46%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    text-align: left;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 2px black;
+}
+
+article {
+    width: 30%;
+    text-align: left;
+}
+
+/*From here...*/
+.video-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 25%;
+    border-top: 3px solid #aaaaaa;
+    border-bottom: 3px solid #aaaaaa;
+}
+
+video {
+    position: absolute;
+    top: 38%; /*Changed from 50% to 38%*/
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+/*...till here, this code block and its "inner central alignment method" were provided by ChatGPT. Slightly changed.*/
+
+.img-text-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-top: 8em;
+    margin-bottom: 8em;
+}
+
+.img-text-block img {
+    width: 24%;
+    margin-right: 20px;
+    border: 3px solid #cccccc;
+}

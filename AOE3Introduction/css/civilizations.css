@@ -1,0 +1,82 @@
+gallery-nav {
+    position: fixed;
+    bottom: 55px;
+    left: 30px;
+    width: 250px;
+    height: 80%;
+}
+
+gallery-nav ul {
+    list-style-type: circle;
+}
+
+gallery-nav li {
+    margin-bottom: 0;
+}
+
+gallery-nav a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.4);
+    font-size: 0.8em;
+}
+
+gallery-nav a:hover {
+    color: rgba(255,255,255,1);
+}
+
+main {
+    margin-left: 250px;
+    padding: 2em;
+    overflow-y: auto;
+}
+
+main section {
+    display: flex;
+    align-items: center;
+    width: 93%;
+    margin-bottom: 4em;
+    padding-bottom: 4em;
+    border-bottom: 1px solid #555555;
+    justify-content: space-between;
+}
+
+.text-section {
+    width: 75%;
+}
+
+.img-section {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+main section img {
+    width: 220px;
+    height: auto;
+    border: 1px solid whitesmoke;
+    margin-top: 1em;
+}
+
+main ul {
+    list-style-type: disc;
+}
+
+.civ-heading {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.li-heading {
+    font-family: "Cascadia Code", sans-serif;
+    font-weight: bold;
+    color: #fffff0;
+}
+
+main .article-heading {
+    font-size: 2em;
+    font-style: italic;
+    text-shadow: 3px 3px 2px #444440;
+    margin-top: 5em;
+    margin-bottom: 2em;
+}
